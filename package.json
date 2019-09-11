@@ -1,6 +1,6 @@
 {
   "name": "ayyy",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "private": false,
   "description": "基于 Vue 的颜色选择器",
   "main": "lib/vcolorpicker.common.js",
