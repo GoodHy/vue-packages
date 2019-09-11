@@ -1,10 +1,10 @@
 {
-  "name": "vcolorpickerhy",
+  "name": "hyvcolorpicker",
   "version": "1.0.0",
   "private": false,
   "description": "基于 Vue 的颜色选择器",
   "main": "lib/vcolorpicker.umd.min.js",
-  "keywords": "vcolorpickerhy vcolorpickerhy color-picker",
+  "keywords": "hyvcolorpicker hyvcolorpicker color-picker",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
