@@ -1,11 +1,15 @@
 {
-  "name": "vue-packages",
+  "name": "vcolorpicker-hy",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "description": "基于 Vue 的颜色选择器",
+  "main": "lib/vcolorpicker.umd.min.js",
+  "keywords":"vcolorpicker colorpicker color-picker",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name vcolorpicker --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^2.6.5",
