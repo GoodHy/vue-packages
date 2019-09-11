@@ -1,20 +1,15 @@
 {
-  "name": "ayyy",
+  "name": "vcolorpickerhy",
   "version": "0.1.5",
   "private": false,
   "description": "基于 Vue 的颜色选择器",
-  "main": "lib/vcolorpicker.common.js",
-  "module": "dist/my-component.esm.js",
-  "unpkg": "dist/my-component.min.js",
-  "keywords": "vcolorpicker colorpicker color-picker",
+  "main": "lib/vcolorpicker.umd.min.js",
+  "keywords": "vcolorpickerhy vcolorpickerhy color-picker",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "lib": "vue-cli-service build --target lib --name vcolorpicker --dest lib packages/index.js"
-  },
-  "browser": {
-    "./sfc": "src/demo-component.vue"
   },
   "dependencies": {
     "core-js": "^2.6.5",

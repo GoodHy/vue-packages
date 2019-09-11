@@ -1,18 +1,18 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
-    <demo-component></demo-component>
-  </div>
+  <colorPicker v-model="color" v-on:change="headleChangeColor"></colorPicker>
 </template>
 
 <script>
-// @ is an alias to /src
-// import HelloWorld from "@/components/HelloWorld.vue";
-
 export default {
-  name: "home",
-  components: {
+  data() {
+    return {
+      color: "#ff0000"
+    };
+  },
+  methods: {
+    headleChangeColor() {
+      console.log("颜色改变");
+    }
   }
 };
 </script>
