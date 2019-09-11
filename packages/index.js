@@ -1,5 +1,5 @@
 // 导入颜色选择器组件
-import demoComponent from "../examples/demo-component/index";
+import demoComponent from "./demo-component/index";
 
 // 存储组件列表
 const components = [demoComponent];
