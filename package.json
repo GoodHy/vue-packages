@@ -1,6 +1,6 @@
 {
   "name": "hyvcolorpicker",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "private": false,
   "description": "基于 Vue 的颜色选择器",
   "main": "lib/vcolorpicker.umd.min.js",
